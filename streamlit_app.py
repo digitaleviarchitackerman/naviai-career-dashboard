@@ -2,7 +2,7 @@ import streamlit as st
 import datetime
 import random
 
-# Initialize session state if not present
+# Initialize session st ate if not present
 if 'cvs_generated' not in st.session_state:
     st.session_state.cvs_generated = 3448
 if 'cheatsheets_generated' not in st.session_state:
